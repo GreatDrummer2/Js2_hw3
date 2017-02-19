@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Gloria Hallelujah', cursive;
+	background: #43d2e8;
+}
+img{
+	height:32px;
+	width:32px;
+	margin-top:9px;
+	margin-left: 9px;
+}
+.text{
+	margin:55px 100px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.desk{
+	background:#666;
+	width :400px;
+	height:400px;
+	position: absolute;
+	top:430px;
+	left:400px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.tup{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	top:400px;
+	left:400px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.tdown{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	top:830px;
+	left:400px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.active{
+	border:2px solid #7338ff;
+}
+.black{
+	background:#000;
+	width: 50px;
+	height:50px;
+	box-sizing: border-box;
+}
+
+.white{
+	background:#fff;
+	width: 50px;
+	height:50px;
+	box-sizing: border-box;
+}
+
+.tabup{
+	height:30px;
+	width:50px;
+	background: #fff;
+	color: #000;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+	transform: rotate(180deg);
+}
+.tabdown{
+	height:30px;
+	width:50px;
+	background: #fff;
+	color: #000;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+.colleft,.colright{
+	position: absolute;
+	top:400px;
+	width: 30px;
+	height: 460px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.colleft{
+		left:370px;
+}
+.colright{
+		left:800px;
+}
+.number{
+	height: 50px;
+	width: 30px;
+	line-height: 50px;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+}
+.number2{
+	height: 50px;
+	width: 30px;
+	line-height: 50px;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	transform: rotate(180deg);
+}
+#coordinates{
+	position: absolute;
+	top:50px;
+	left:650px;
+	background: #fff;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 40px;
+	text-align: center;
+	border-radius: 4px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	outline:none;
+}
