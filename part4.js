@@ -79,7 +79,7 @@ function ChessDesk(node){
   this.eventClick = function () {
     desk.onclick = function(event){
     coord = document.getElementById('coordinates');
-    var x= document.getElementsByClassName('active')[0];
+    var x = document.getElementsByClassName('active')[0];
     if(x != undefined)x.classList.remove('active');
     event.target.classList.add('active'); 
     coord.innerHTML = event.target.id;
